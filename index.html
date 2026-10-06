@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fruit Frenzy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.9/babel.min.js"></script>
+</head>
+<body class="min-h-screen bg-emerald-950 text-white flex flex-col items-center justify-center touch-none overflow-hidden" style="font-family: 'Fredoka', sans-serif;">
+
+  <div class="relative w-[min(92vw,480px)] aspect-[3/4] max-h-[88vh] rounded-2xl overflow-hidden shadow-2xl ring-4 ring-emerald-800">
+    <canvas id="game" width="480" height="640" class="block w-full h-full"></canvas>
+    <div id="root" class="absolute inset-0"></div>
+  </div>
+
+  <p class="mt-3 text-emerald-200 text-sm text-center">
+    Move with the arrow keys, A / D, your mouse or your finger. Press P to pause.
+  </p>
+
+  <script src="js/texture.js"></script>
+  <script src="js/engine.js"></script>
+  <script type="text/babel" data-presets="react,typescript" src="react/file.tsx"></script>
+</body>
+</html>
