@@ -196,15 +196,6 @@ Or open the folder in VS Code and start the **Live Server** extension. Then visi
 
 <br />
 
-## 🛣️ Ideas for Later
-
-- [ ] Sound effects and a mute button
-- [ ] Power-ups such as a wider basket or slow motion
-- [ ] Combo multiplier for catching fruit in a row
-- [ ] Online leaderboard
-
-<br />
-
 ## 📦 Third-Party Libraries
 
 React, ReactDOM, Babel Standalone and Tailwind CSS are loaded from CDNs, and the Fredoka font comes from Google Fonts. They keep their own licenses. The license in this repository covers only the original game code and artwork.
